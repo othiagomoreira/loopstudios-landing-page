@@ -283,14 +283,29 @@ img {
   color: var(--Very-Dark-Gray);
 }
 
+@media screen and (max-width:374px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .title-interactive {
+    font-size: 1.5rem;
+  }
+}
+
 @media screen and (min-width:768px) {
   .btn-menu {
     display: none;
   }
 
+  .logo {
+    width: auto;
+  }
+
   .bg-hero {
     background: url(../images/desktop/image-hero.jpg)  no-repeat center; 
     background-size: cover;
+    height: 80vh;
   }
 
   .grid-creations {
