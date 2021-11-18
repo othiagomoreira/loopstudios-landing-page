@@ -311,7 +311,7 @@ img {
   .bg-hero {
     background: url(../images/desktop/image-hero.jpg)  no-repeat center; 
     background-size: cover;
-    max-height: 550px;
+    max-height: 600px;
   }
 
   .grid-creations {
@@ -350,6 +350,13 @@ img {
 }
 
 @media screen and (min-width:1024px) {
+  .nav-menu {
+    padding-top: 2rem;
+  }
+  
+  .title {
+    max-width: 550px;
+  }
   .interactive {
     grid-template-columns: 2fr 1fr;
   }
@@ -364,8 +371,5 @@ img {
     padding: 4rem ;
   }
 
-  .title {
-    max-width: 550px;
-  }
 }
 
