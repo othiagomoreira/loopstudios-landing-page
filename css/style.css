@@ -140,7 +140,6 @@ img {
   background: url(../images/mobile/image-hero.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
-  max-height: 660px;
 
   display: flex;
   align-items: center;
@@ -312,6 +311,7 @@ img {
   .bg-hero {
     background: url(../images/desktop/image-hero.jpg)  no-repeat center; 
     background-size: cover;
+    max-height: 550px;
   }
 
   .grid-creations {
