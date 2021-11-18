@@ -363,5 +363,9 @@ img {
     text-align: start;
     padding: 4rem ;
   }
+
+  .title {
+    max-width: 550px;
+  }
 }
 
